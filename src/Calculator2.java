@@ -1,11 +1,22 @@
+import java.util.Scanner;
 
 public class Calculator2 {
 	public static void main(String[] args)
 	{
-		System.out.println("µ¡¼À : " + (3 + 4));
-		System.out.println("»¬¼À : " + (4 - 3));
-		System.out.println("°÷¼À : " + (4 * 3));
-		System.out.println("³ª´°¼À : " + (3 / 4));
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Ã¹ ¹øÂ° ÀÔ·Â °ª : ");
+		int first = scanner.nextInt();
+		System.out.println(first);
+		
+		System.out.println("µÎ ¹øÂ° ÀÔ·Â °ª : ");
+		int second = scanner.nextInt();
+		System.out.println(second);
+		
+		System.out.println("µ¡¼À : " + (first + second));
+		System.out.println("»¬¼À : " + (first - second));
+		System.out.println("°÷¼À : " + (first * second));
+		System.out.println("³ª´°¼À : " + (first / second));
 	}
 
-}
+} 
+ 
