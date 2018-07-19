@@ -18,4 +18,4 @@ public class Calculator {
 		System.out.println("³ª´°¼À : " + (first / second));
 	}
 
-} 
+}  
