@@ -1,11 +1,21 @@
+import java.util.Scanner;
 
 public class Calculator {
-	int add(int i, int j) {
-		return i + j;
-	}
-	public static void main(String[] arg)
+	public static void main(String[] args)
 	{
-		Calculator cal = new Calculator();
-		System.out.println(cal.add(1,2));
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Ã¹ ¹øÂ° ÀÔ·Â °ª : ");
+		int first = scanner.nextInt();
+		System.out.println(first);
+		
+		System.out.println("µÎ ¹øÂ° ÀÔ·Â °ª : ");
+		int second = scanner.nextInt();
+		System.out.println(second);
+		
+		System.out.println("µ¡¼À : " + (first + second));
+		System.out.println("»¬¼À : " + (first - second));
+		System.out.println("°÷¼À : " + (first * second));
+		System.out.println("³ª´°¼À : " + (first / second));
 	}
-}
+
+} 
