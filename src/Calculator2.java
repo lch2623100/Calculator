@@ -18,5 +18,5 @@ public class Calculator2 {
 		System.out.println("³ª´°¼À : " + (first / second));
 	}
 
-}
+} 
  
